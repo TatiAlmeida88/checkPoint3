@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Are+You+Serious&display=swap');
+
+.parallax {
+    background-image: url("https://images.adsttc.com/media/images/6013/8f05/f91c/8125/1500/02d2/large_jpg/Roby_Salao_Beleza-3774.jpg?1611894525");
+    height: 40vh; 
+    background-attachment: fixed;
+    background-position: 0px -300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+  }
+
+.produto-foto {
+    height: 280px;
+}
+
+.titulo-pagina {
+    font-size: 80px;
+    padding: 30vh 0px 0px 5vw;
+    height:70vh;
+    color: #fcedd8;
+    font-weight: 700;
+    text-shadow: 8px 8px 0px #eb452b, 
+                3px 3px 0px #efa032;
+}
+
+.navbar-salao {
+      background-color: coral;
+}
+
+
+.d-flex{
+    gap: 20px;
+}
+
+.btn-transition:hover{
+    background-color: gray;
+}
+
+.login{
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn-active{
+    font-weight: bolder;
+}
+
+.titulo-cadastro{
+    font-size: 24px;
+}
+
+.cadastro{
+    padding: 30px;
+    margin: 20px;
+    background-color: rgba(255, 127, 80, 0.219);
+}
+
+.navbar-letter{
+    font-family: 'Are You Serious', cursive;
+    font-size: 48px;
+    background-color: rgba(255, 255, 255, 0.26);
+    padding: 0px 10px;
+    border-radius: 12px;
+} 
+
+.active-new{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+
+.h1_space{
+    padding-bottom: 40px;
+}
+
+.tituloServico{
+    font-size: 18px;
+}
+
+.agendarServico{
+    padding: 0px 10px;
+}
+
+
+.card-padding {
+    margin-bottom: 15px;
+}
+
+.align-items-produtos {
+    text-align: justify;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-size {
+    width: 100%;
+    font-size: 20px;
+}
+
+h4, .card-text {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+
+    .titulo-pagina {
+        font-size: 60px;
+    }
+}
